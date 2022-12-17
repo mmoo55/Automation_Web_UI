@@ -21,7 +21,7 @@ public class Chrome implements IBrowser {
         driver.manage().window().maximize();*/
 
         WebDriver driver = null;
-        WebDriverManager.chromedriver().setup();
+        WebDriverManager.chromedriver().browserVersion("108.0.5359.124").setup();
         ChromeOptions options = new ChromeOptions();
         options.addArguments("start-maximized");
         options.addArguments("enable-automation");
