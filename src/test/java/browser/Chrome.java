@@ -10,7 +10,7 @@ public class Chrome implements IBrowser {
     @Override
     public WebDriver create() {
         /*System.setProperty("webdriver.chrome.driver","src/test/resources/driver/chromedriver.exe");*/
-        System.setProperty("webdriver.chrome.driver","src/test/resources/driver/chromedriver");
+        System.setProperty("webdriver.chrome.driver","src//test//resources//driver//chromedriver");
 
         WebDriver driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
