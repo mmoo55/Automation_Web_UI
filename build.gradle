@@ -26,6 +26,9 @@ dependencies {
     implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '4.5.3'
 
     implementation group: 'io.cucumber', name: 'cucumber-picocontainer', version: '7.5.0'
+
+    implementation group: 'io.github.bonigarcia', name: 'webdrivermanager', version: '5.3.1'
+
 }
 
 test {
